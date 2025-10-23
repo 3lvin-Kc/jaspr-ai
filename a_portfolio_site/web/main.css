@@ -1,0 +1,5 @@
+/* Custom styles can go here */
+body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-gray-50 text-gray-800;
+}

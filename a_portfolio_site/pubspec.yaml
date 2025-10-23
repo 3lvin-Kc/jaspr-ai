@@ -1,0 +1,14 @@
+name: portfolio_site
+description: A personal portfolio site built with Jaspr.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  jaspr: ^0.10.0
+  jaspr_router: ^0.4.0
+  jaspr_tailwind: ^0.3.0
+
+jaspr:
+  client: true
