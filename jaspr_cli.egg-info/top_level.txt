@@ -1,0 +1,6 @@
+ai
+build
+cli
+generator
+previews
+prompts

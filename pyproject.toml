@@ -9,8 +9,15 @@ dependencies = [
     "typer",
     "google-generativeai",
     "jinja2",
-    "rich"
+    "rich",
+    "python-dotenv"
 ]
 
 [project.scripts]
-jaspr-cli = "cli:app"
+jasprai = "cli:main"
+
+[tool.setuptools]
+py-modules = ["cli", "ai", "generator", "prompts", "previews.preview"]
+
+[tool.setuptools.packages.find]
+exclude = ["a_portfolio_site*", "previews*"]

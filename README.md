@@ -42,6 +42,12 @@ Easy To Extend: You can add new features with just a little code.
    pip install -r requirements.txt
    ```
 
+   Or, for global installation (recommended):
+   ```bash
+   pip install . (Run as administrator )
+   ```
+   (Run as administrator on Windows for system-wide installation, making `jasprai` available globally)
+
 3. Set up environment:
    - Create a `.env` file with your Gemini API key:
      ```
@@ -51,13 +57,14 @@ Easy To Extend: You can add new features with just a little code.
 
 4. Run the CLI:
    ```bash
-   python cli.py
+   jasprai
    ```
+   (If installed locally, use `python cli.py`)
 
 ## Usage
 
 ### Interactive Shell
-- Start with `python cli.py`.
+- Start with `jasprai`.
 - Enter prompts like:
   - `build a portfolio site`
   - `create an e-commerce landing page`
@@ -130,7 +137,7 @@ project_name/
 
 1. Fork the repo.
 2. Create a feature branch.
-3. Make changes, test with `python cli.py`.
+3. Make changes, test with `jasprai`.
 4. Submit a PR with description.
 
 ### Guidelines
