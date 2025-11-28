@@ -134,6 +134,13 @@ project_name/
 - **Rich UI Not Working**: Install `rich` via pip.
 
 ## Contributing
+## 🤝 Welcome Contributors!
+
+Thanks for stopping by! Whether you’re fixing a bug, improving documentation, adding features, or just exploring — you’re welcome here.  
+Your contributions, ideas, and feedback mean a lot and help this project grow stronger.
+
+Feel free to open an issue, start a discussion, or submit a pull request anytime.  
+Let’s build something awesome together! 🚀
 
 1. Fork the repo.
 2. Create a feature branch.
@@ -157,3 +164,5 @@ MIT License. See LICENSE file for details.
 - Custom themes and components library.
 
 For questions or issues, open a GitHub issue.
+
+NOTE: I built this README in a bit of a hurry, so if you notice anything missing or have suggestions, feel free to reach out. You can message me on Discord (ID on my profile).
