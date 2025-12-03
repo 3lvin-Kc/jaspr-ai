@@ -1,27 +1,19 @@
 # Jaspr CLI Generator
-A simple AI-powered command-line tool to quickly build Jaspr (Dart web) websites from your text prompts. Powered by Python, Google Gemini AI, and Rich for colorful terminal feedback.
+A rough AI-powered CLI that generates client-side Jaspr web apps from text prompts. Built with Python, Google Gemini, and Rich for CLI output.
 
-What It Does
-AI Project Builder: Just tell it what you want (e.g., "build a portfolio site")—it designs and builds your Jaspr project using Google Gemini.
+Right now:
 
-Client-Side Focus: Creates Jaspr web apps for the browser (not SSR).
+Many features are incomplete or unreliable
 
-Clean File Organization: Puts pages, components, and support files in the right folders (lib/pages/, lib/components/, web/).
+AI project generation isn’t consistent
 
-Smart Dependencies: Automatically adds the latest Jaspr, Router, and Tailwind to your pubspec.yaml.
+The pipeline needs refactoring
 
-Colorful Interactive Shell: Uses Rich for readable help, previews, and error messages.
+Some generated code doesn’t run without manual fixes
 
-Easy To Extend: You can add new features with just a little code.
+So if you open the repo and think “why is this written like this?”
+…the answer is: because I was trying things 😂
 
-## Features
-
-- **AI-Driven Generation**: Uses Google Gemini 2.0 to create complete Jaspr projects from simple prompts (e.g., "build a portfolio site").
-- **Client-Side Only**: Generates pure client-side Jaspr apps (no server-side rendering).
-- **Modular Structure**: Organizes projects into `lib/pages/`, `lib/components/`, `web/` for scalability.
-- **Dependency Management**: Automatically includes required dependencies (Jaspr, Router, Tailwind) with latest versions.
-- **Interactive Shell**: Rich-colored CLI with help, previews, and error handling.
-- **Extensible**: Easy to add new features or modify prompts.
 
 ## Installation
 
@@ -121,10 +113,6 @@ project_name/
 3. Generator creates files, runs commands (e.g., `dart pub get`).
 4. Preview shows results.
 
-### Key Components
-- **SYSTEM_PROMPT**: Detailed guide for AI to generate client-side Jaspr code.
-- **File Schema**: `'files': [{'path': str, 'content': str}]` for full file generation.
-- **Dependency Rules**: Minimal, latest versions, client-only.
 
 ## Troubleshooting
 
@@ -156,13 +144,6 @@ Let’s build something awesome together! 🚀
 
 MIT License. See LICENSE file for details.
 
-## Future Enhancements
 
-- Add more styling options (e.g., Material Design).
-- Support for multi-page apps with SSR.
-- Integration with CI/CD for auto-deployment.
-- Custom themes and components library.
-
-For questions or issues, open a GitHub issue.
 
 NOTE: I built this README in a bit of a hurry, so if you notice anything missing or have suggestions, feel free to reach out. You can message me on Discord (ID on my profile).
